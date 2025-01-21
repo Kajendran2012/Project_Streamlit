@@ -30,7 +30,7 @@ st.markdown(
 if not st.session_state["logged_in"]:
     st.markdown('<div class="centered-content">', unsafe_allow_html=True)
     st.markdown("<h1>FT_Upload Process</h1>", unsafe_allow_html=True)
-    st.image("C:/Users/USER/Downloads/dell-logo.jpg", caption="Dell", use_container_width=True)
+    #st.image("C:/Users/USER/Downloads/dell-logo.jpg", caption="Dell", use_container_width=True)#
 
     # Mock authentication system
     username = st.text_input("Username")
